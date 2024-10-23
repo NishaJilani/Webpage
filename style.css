@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 60em;
+    background-image: url(./images/nature-2ygv7ssy2k0lxlzu.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+    font-weight: bold;
+}
+
+h1 {
+    color: #000;
+    font-size: 100px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: trasnform 0.5s;
+}
+
+.card1 {
+    background-image: url(./images/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.avif);
+}
+
+.card2 {
+    background-image: url(./images/43db4682a57bbddf864719d9403919eb.jpg);
+}
+
+.card3 {
+    background-image: url(./images/pexels-james-wheeler-417074.jpg);
+}
+
+.card4 {
+    background-image: url(./images/road-1072821_640.jpg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: white;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 15px #999;
+    font-size: 8px;
+}
+
+.one {
+    width: 100%;
+    height: 60em;
+    background-image: url(./images/path-in-heavy-snow-in-winter-forest-during-sunset-free-photo.webp);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.apple {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+.one {
+    width: 100%;
+    height: 80em;
+    background-image: url(./images/path-in-heavy-snow-in-winter-forest-during-sunset-free-photo.webp);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    border-image-repeat: repeat;
+}
+
+.navbar1 {
+    height: 8%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.navbar1 {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar1 ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+    text-decoration: underline;
+}
+
+.navbar1 ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+.man {
+    font-size: larger;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.two {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+#pic {
+    width: 100%;
+    height: 300px;
+}
+
+.three {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.four {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 5px;
+
+}
+
+.five {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.ax {
+    width: 100%;
+    height: 39.6em;
+    background-image: url(./images/landscape-beautiful-spring-nature-hd-wallpaper_1600x1200.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    border-image-repeat: repeat;
+}
+
+
+.moon {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+.flower {
+    text-decoration: underline;
+}
