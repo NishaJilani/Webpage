@@ -6,7 +6,7 @@
 
 .container {
     width: 100%;
-    height: 60em;
+    height: 40em;
     background-image: url(./images/nature-2ygv7ssy2k0lxlzu.jpg);
     background-position: center;
     background-size: cover;
@@ -252,4 +252,330 @@ h2 {
 
 .flower {
     text-decoration: underline;
+}
+
+
+/* Image container default styling for larger screens */
+.two, .three, .four, .five {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Image styling */
+#pic {
+    width: 90%;
+    height: 300px; /* Maintain the aspect ratio */
+    object-fit: cover; /* Ensures images fit well within the container */
+    transition: transform 0.4s ease-in-out; /* Smooth zoom-in effect */
+}
+
+/* Hover effect for zoom-in */
+#pic:hover {
+    transform: scale(1.2); /* Zoom-in on hover */
+}
+
+/* Responsive */
+
+/* General Styles for Desktop and Larger Screens */
+
+
+
+.two, .three, .four, .five {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 40em;
+    background-image: url(./images/nature-2ygv7ssy2k0lxlzu.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #000;
+    font-size: 100px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+/* Styles for smaller screens (tablets and below) */
+@media screen and (max-width: 768px) {
+    .container {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .col {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    button {
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+}
+
+/* Styles for mobile phones */
+@media screen and (max-width: 480px) {
+    nav ul li {
+        display: inline-block;
+        margin-right: 15px;
+        margin-left: 0;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+        height: 55em;
+        background-image: url(./images/nature-2ygv7ssy2k0lxlzu.jpg);
+        background-position: center;
+        background-size: cover;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+       text-transform: capitalize;
+
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    button {
+        width: 100px;
+        padding: 10px 0;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .menu-icon {
+        display: none; /* Hide the menu icon on mobile if not needed */
+    }
+
+    .logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .navbar1 ul li {
+        display: inline-block;
+        margin-right: 20px;
+        margin-left: -5px;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+
+    .one {
+        width: 100%;
+        height: 200%;
+        background-image: url(./images/path-in-heavy-snow-in-winter-forest-during-sunset-free-photo.webp);
+    }
+ 
+    .calligraphy{
+        font-size: 35px; 
+    }
+
+    @media only screen and (max-width: 600px) {
+      
+        .two, .three, .four, .five {
+          width: 100%;
+          float: none;
+          padding: 0;
+        }
+      
+        #pic {
+          width: 100%;
+          height: auto; /* Maintain aspect ratio */
+          object-fit: cover; /* Ensures images fit well within the container */
+        }
+      }
+
+      /* Responsive styling for mobile devices */
+@media only screen and (max-width: 600px) {
+
+    .two, .three, .four, .five {
+      width: 100%; /* Full width on small devices */
+      float: none;
+      padding: 5px;
+    }
+  
+    #pic {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      transition: transform 0.4s ease-in-out;
+    }
+  
+    #pic:hover {
+      transform: scale(1.2); /* Zoom-in effect on mobile as well */
+    }
+  }
+
+  .moon{
+    font-size: 200%;
+  }
+
+  .flower{
+    font-size: 100%; 
+  }
+
+ /* contact page */
+
+ /* Reset basic styling for the images and links */
+img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain; /* Ensure the image fits without being distorted */
+}
+
+/* Style for <p> to align image and text */
+p {
+    /* display: flex; */
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px; /* Space between image and text */
+    font-size: 16px; /* Keep consistent font size */
+}
+
+/* Ensure that the images and text stack vertically on smaller screens */
+@media only screen and (max-width: 600px) {
+    p {
+        flex-direction: column; /* Stack the image and link vertically */
+        align-items: center; /* Center-align for mobile */
+    }
+
+    img {
+        height: 50px; /* Keep image size consistent on small screens */
+        width: 50px;
+    }
+
+    a {
+        font-size: 0.7em; /* Adjust font size for better readability on smaller screens */
+    }
+}
+
+
+
 }
